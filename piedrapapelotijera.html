@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <title>Piedra, Papel o Tijera</title>
+    <style>
+        body{
+            font-family: 'Indie Flower', cursive;
+        }
+        .contenedor{
+            display: inline-flex;
+            width: 100%;
+            height: 100vh;
+            place-items: center;
+            justify-content: space-around;
+            background-color: rgb(27, 27, 68);
+            background-image: url(./fondo3.webp);
+            background-size: 100% 100%;
+           
+        }
+        
+        .contenedor-juego{
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            width: 300px;
+            justify-items: center;
+            
+        }
+        .titulo{
+            background-color: rgba(80, 33, 6, 0.712);
+            border-radius: 25px;
+
+            font-size: xx-large;
+            color: aquamarine;
+            text-align: center;
+            margin-bottom: 40px;
+           
+        }
+        .boton button{
+            width: 80px;
+            height: 80px;
+
+        }
+        .boton button img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            
+        }
+        .contador{
+            font-size: xx-large;
+            margin-top: 60px;
+            color: white;
+            text-align: center;
+            
+        }
+        .puntaje1 , .puntaje2{
+            text-align: center;
+            color: rgb(23, 4, 41);
+            font-size: xx-large;
+            background-color: rgba(149, 53, 29, 0.849);
+            border-radius: 20px;
+            border: 5px;
+
+        }
+        .refresh{
+            width: 150px;
+            height: 30px;
+            margin-top: 50px;
+            border-radius: 20px;
+            background-color: rgba(42, 13, 13, 0.917);
+            color: aquamarine;
+            font-family: 'Indie Flower', cursive;
+            
+            
+        }   
+          
+        
+        
+    </style>
+</head>
+<body>
+    <body>
+        
+    </body>
+    <div class="contenedor">
+        <div class="puntaje1">
+            <p id="ganaste">Usuario</p>
+        </div>
+        <div class="contenedor-juego">
+            <p class="titulo">Este Juego es Piedra, Papel o Tijera.</p>
+            <div class="boton">
+                <button class="piedra" id="piedra"><img src="./piedra.png" alt="piedra"></button>
+                <button class="papel" id="papel"><img src="./papel.png" alt="papel"></button>
+                <button class="tijera" id="tijera"><img src="./tijera.png" alt="tijera"></button>
+            </div>
+
+            <button class="refresh" onclick="javascript:window.location.reload();">Reiniciar</button>
+
+            <span class="contador">Hola A Todos</span>
+        </div>
+        <div class="puntaje2">
+            <p id="perdiste">Maquina</p>
+        </div>
+    </div>
+    <script src="ppt.js"></script>
+
+</body>
+</html>
