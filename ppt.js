@@ -19,7 +19,7 @@
         var maquina = opciones[Math.floor(Math.random()*3)];
         
     
-        if( usuario==maquina ){
+        if( usuario===maquina ){
             
             alert("Empatados \nLa Maquina Saco " + maquina);
         }
