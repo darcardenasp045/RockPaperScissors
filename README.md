@@ -15,10 +15,6 @@
 - Resultados instantáneos: Descubre quién gana en cuestión de segundos.
 - Juego contra la computadora: Desafía a la inteligencia artificial en emocionantes partidas.
 
-## Capturas de Pantalla
-
-_Inserta aquí capturas de pantalla del juego en acción._
-
 ## Tecnologías Utilizadas
 
 - HTML: Estructura básica de la página web.
@@ -38,7 +34,7 @@ _Inserta aquí capturas de pantalla del juego en acción._
 
 ## Créditos
 
-Este juego fue creado por [Tu Nombre](https://github.com/tuusuario).
+Este juego fue creado por Daniel Cardenas(https://github.com/darcardenasp045).
 
 ## Licencia
 
