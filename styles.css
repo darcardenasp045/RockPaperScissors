@@ -1,7 +1,7 @@
 body{
     font-family: 'Indie Flower', cursive;
-    background: rgb(2,0,36);
-    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(75,75,127,1) 35%, rgba(0,212,255,1) 100%);
+    background: rgb(188, 56, 29);
+    background: radial-gradient(circle, rgb(171, 68, 21) 0%, rgba(75,75,127,1) 35%, rgba(0,212,255,1) 100%);
 }
 .contenedor{
     display: inline-flex;
